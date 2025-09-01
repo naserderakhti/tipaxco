@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme {
+  --color-baseGreen: #33936e;
+}
+
+@layer components {
+  .container {
+    @apply mx-auto;
+  }
+  .showme {
+    @apply outline outline-slate-800;
+  }
+}
