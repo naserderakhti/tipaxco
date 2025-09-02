@@ -5,7 +5,7 @@ import NavLoginSection from "./NavLoginSection";
 
 export default function Nav() {
   return (
-    <nav className="bg-baseGreen/95">
+    <nav className="bg-baseGreen/95 fixed top-0 w-full">
       <div className="container md:px-8 flex flex-row justify-between">
         <NavLoginSection />
         <div className="py-3 w-1/4 self-end flex flex-row justify-around items-center">
