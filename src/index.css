@@ -11,4 +11,7 @@
   .showme {
     @apply outline outline-slate-800;
   }
+  .dir-rtl {
+    direction: rtl;
+  }
 }
